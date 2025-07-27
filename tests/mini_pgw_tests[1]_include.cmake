@@ -1,0 +1,5 @@
+if(EXISTS "/root/mini-pgw/build/tests/mini_pgw_tests[1]_tests.cmake")
+  include("/root/mini-pgw/build/tests/mini_pgw_tests[1]_tests.cmake")
+else()
+  add_test(mini_pgw_tests_NOT_BUILT mini_pgw_tests_NOT_BUILT)
+endif()

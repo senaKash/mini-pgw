@@ -1,0 +1,42 @@
+# Бинарные файлы и директории сборки
+/build/
+/bin/
+/obj/
+*.out
+*.exe
+*.o
+*.a
+*.so
+*.dylib
+
+# Лог-файлы
+*.log
+
+# Файлы конфигурации среды
+*.env
+.vscode/
+.idea/
+
+# CMake и файлы сборки
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Файлы среды разработки (например, для Visual Studio или Xcode)
+.vscode/
+.vs/
+.idea/
+
+# Временные файлы редакторов
+*~ 
+*.swp
+*.swo
+
+# Файлы для macOS
+.DS_Store
+
+# Системные файлы (например, на Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
