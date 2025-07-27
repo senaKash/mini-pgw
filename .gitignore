@@ -40,3 +40,9 @@ cmake_install.cmake
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+
+_deps/
+CPackConfig.cmake
+CPackSourceConfig.cmake
+CTestTestfile.cmake
